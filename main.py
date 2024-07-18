@@ -43,7 +43,7 @@ def create_relationship_handler(name1, name2, relationship_type):
         session.write_transaction(create_relationship, name1, name2, relationship_type)
     st.success(f"Relationship {relationship_type} created successfully between {name1} and {name2}.")
 
-st.title("User and Relationship Management with Neo4j")
+st.title("DAGUN: Directed Acyclic Graph between Users in Neo4j ")
 
 option = st.selectbox(
     "What do you want to do?",
