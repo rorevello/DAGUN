@@ -1,2 +1,3 @@
-# u2graph
-Directed acyclic graph between users
+# DAGUN
+
+Directed Acyclic Graph between Users in Neo4j 
